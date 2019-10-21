@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Archery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Times New Roman, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #BCCE98;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: pink;
+  color: white;
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #DAE9BC;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>WELCOME TO THE WEBSITE</h1>
+</div>
+
+<div class="navbar">
+  <a href="E:\CSC318\project/page1.html" class="active">Home</a>
+  <a href="E:\CSC318\project/page2.html" class="active">History of Archery</a>
+  <a href="E:\CSC318\project/page3.html" class="active">Video</a>
+  <a href="E:\CSC318\project/page4.html" class="active">Bows and Arrows</a>
+  <a href="E:\CSC318\project/page5.html" class="active">Basic Step</a>
+  <a href="E:\CSC318\project/page6.html" class="active">Feedback</a>
+</div>
+
+  <div class="main">
+    <h2>History of Archery</h2>
+       <p><center>
+<img src = "history.jpg" width="350px"></center><br>
+        Archery, one of the oldest sports still practiced, is closely linked to the development of civilisation. As a cultural advance, it was comparable to the discovery of fire and the invention of the wheel.<br>
+<br>
+<b>ARCHERY IN BATTLE</b><br>
+In 1200 BC the Hittites and Assyrians shot their bows from chariots, becoming fearsome opponents in battle. They made their bows with tendon, horn and wood and also developed a new re-curved shape. This made their bows shorter and more powerful, making them easier to handle for an archer on horseback.<br>
+<br>
+<b>A NOBLE HISTORY</b><br>
+Archery was the favourite sport of the Egyptian pharaohs during the 18th dynasty (1567-1320 BC). Many centuries later, some of the earliest recorded archery tournaments took place during the Zhou (Chou) dynasty (1027- 256 BC) in China. Such events were attended by Chinese nobility. Much later, English writers honoured the longbow for famous contributions to their country’s victories in the battles of Crécy, Agincourt and Poitiers.<br>
+<br>
+<b>MOST DECORATED ARCHER</b><br>
+Archery first appeared in the Olympic Games in 1900, was contested again in 1904, 1908 and 1920, then again, after an absence of 52 years, from 1972 to the present. The most decorated archer in Olympic history is Hubert Van Innis of Belgium who competed in 1900 and 1920, winning six gold and three silver medals.<br></p>
+
+<div class="footer">
+  <h2>Humaira.com</h2>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Archery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Times New Roman, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #BCCE98;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: pink;
+  color: white;
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #DAE9BC;
+}
+
+@media screen and (max-width: 300px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .navbar a {
+    float: none;
+    width: 40%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>WELCOME TO THE WEBSITE</h1>
+</div>
+
+<div class="navbar">
+  <a href="E:\CSC318\project/page1.html" class="active">Home</a>
+  <a href="E:\CSC318\project/page2.html" class="active">History of Archery</a>
+  <a href="E:\CSC318\project/page3.html" class="active">Video</a>
+  <a href="E:\CSC318\project/page4.html" class="active">Bows and Arrows</a>
+  <a href="E:\CSC318\project/page5.html" class="active">Basic Step</a>
+  <a href="E:\CSC318\project/page6.html" class="active">Feedback</a>
+</div>
+
+  <div class="main">
+    <h2>Types Of Bow</h2>
+    <center><p><img src="types of bow.jpeg"></p></center>
+
+    <h2>Part of Bow</h2>
+    <center><p><img src="part of bow.jpg"></p></center>
+
+    <h2>Types Of Arrow</h2>
+    <center><p><img src="arrow types.jpg " width="1000px"></p></center>
+
+    <h2>Part Of Arrow</h2>
+    <center><p><img src="arrow part.jpg " width="800px"></p></center>
+
+    <h2>Types Of Fletching</h2>
+    <center><p><img src="fletching.jpg " width="700px"></p></center>
+
+    <h2>Types Of Arrow Point</h2>
+    <center><p><img src="bullet.jpg " width="400px"></p></center>
+
+
+<div class="footer">
+  <h2>Humaira.com</h2>
+</div>
+
+</body>
+</html>
